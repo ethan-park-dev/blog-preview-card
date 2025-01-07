@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf')
+    format('truetype-variations');
+  font-weight: 100 900;
+}
+
+:root {
+  /** Slate Colors */
+  --gray-950: #111111;
+  --gray-500: #6b6b6b;
+  /* Yellow */
+  --yellow: #f4d04e;
+
+  /* White */
+  --white: #ffffff;
+
+  /** Spacing */
+  --spacing-300: 2.4rem;
+  --spacing-150: 1.2rem;
+  --spacing-100: 0.8rem;
+  --spacing-50: 0.4rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Text Preset 1 - Figtree Extra Bold */
+.text-preset-1 {
+  font-family: 'Figtree';
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+/* Text Preset 2 - Figtree Medium */
+.text-preset-2 {
+  font-family: 'Figtree';
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* Text Preset 3 - Figtree Medium */
+.text-preset-3 {
+  font-family: 'Figtree';
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* Text Preset 3 Bold - Figtree Extra Bold */
+.text-preset-3-bold {
+  font-family: 'Figtree';
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--yellow);
+}
+
+.card {
+  max-width: 38.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-300);
+  background-color: var(--white);
+  border: 0.1rem solid var(--gray-950);
+  border-radius: 1.6rem;
+  box-shadow: 0.8rem 0.8rem 0rem var(--gray-950);
+}
