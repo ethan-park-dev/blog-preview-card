@@ -1,6 +1,10 @@
+Ethan, here is the revised README content in English, incorporating your experience of completing the project solely with HTML and CSS, using a mobile-first approach, and noting your desire to learn more real-world techniques for HTML/CSS in the future. Feel free to adjust any part of this text to suit your needs!
+
+---
+
 # Frontend Mentor - Blog preview card solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This project is a solution to the [Blog preview card challenge](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) on [Frontend Mentor](https://www.frontendmentor.io). Frontend Mentor helps you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,7 +20,9 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+**Note:** Feel free to delete this note and update your table of contents based on the sections you actually keep.
+
+---
 
 ## Overview
 
@@ -30,18 +36,20 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+Add a screenshot of your solution. The easiest way is to open your project in Firefox, right-click the page, and select “Take a Screenshot.” Depending on the page length, you can choose a full-page screenshot or a cropped one.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take your screenshot. FireShot has a free version, so you don’t need to purchase anything.
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+Once you capture the image, crop/optimize/edit it as you like, place it in your project, and update the image path above.
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+**Note:** Delete this note (and the above paragraphs) once you’ve added your screenshot. If you prefer not to add a screenshot, remove this entire section.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- **Solution URL:** [Add your solution URL here](https://your-solution-url.com)
+- **Live Site URL:** [Add your live site URL here](https://your-live-site-url.com)
+
+---
 
 ## My process
 
@@ -52,61 +60,44 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
+- [React](https://reactjs.org/) - JavaScript library
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+**Note:** These are just examples. Remove this note and replace the items above with actual technologies you used.
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+For this challenge, I completed everything using **only HTML and CSS**. Notably, I defined **mobile-first styles** and then used **media queries for the desktop version**, which helped me reduce duplicated code. By building for smaller screens first and then expanding for larger viewports, I found it easier to maintain and keep the overall structure clean.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Below is an example snippet:
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* Mobile-default styles */
+.card {
+  max-width: 32.7rem;
+  margin: 0 var(--spacing-150);
+}
+
+/* Expanded layout for screens wider than 376px */
+@media screen and (min-width: 376px) {
+  .card {
+    max-width: 38.4rem;
+    margin: 0;
+  }
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Additionally, using semantic markup helped boost the readability and maintainability of the project. Structuring elements with `<header>`, `<section>`, and `<footer>` made it clearer how content is organized.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- **HTML & CSS in real-world scenarios:** I want to learn more **real-world techniques** for HTML and CSS (such as advanced responsive strategies, CSS preprocessors, ITCSS/BEM structures, etc.).
+- **Accessibility (A11Y):** I’m interested in exploring semantic tags and ARIA attributes to improve the user experience for those relying on screen readers.
+- **Performance optimization:** In the future, I'd like to delve into strategies like image optimization, splitting up CSS or JS, and other best practices to make the site load faster.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+---
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@ethan-geek](https://www.frontendmentor.io/profile/ethan-geek)
