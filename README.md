@@ -46,8 +46,8 @@ Once you capture the image, crop/optimize/edit it as you like, place it in your 
 
 ### Links
 
-- **Solution URL:** [Add your solution URL here](https://your-solution-url.com)
-- **Live Site URL:** [Add your live site URL here](https://your-live-site-url.com)
+- **Solution URL:** [https://github.com/ethan-park-dev/blog-preview-card](https://github.com/ethan-park-dev/blog-preview-card)
+- **Live Site URL:** [https://blog-preview-card-beta-five.vercel.app/](https://blog-preview-card-beta-five.vercel.app/)
 
 ---
 
